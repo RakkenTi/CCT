@@ -1,7 +1,6 @@
 --[[
     Lua bundler
     To use, call the file and give the root file to bundle as the first argument.
-    The file will be outputted in src/bundled/<FILENAME>.lua
 ]]
 
 local HEADER = "========================"
