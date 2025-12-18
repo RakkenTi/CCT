@@ -57,7 +57,6 @@ local function parseFile(file)
     return source
 end
 
-
 local function bundleFile(file)
     ---@cast file ccTweaked.fs.BinaryReadHandle|ccTweaked.fs.BinaryWriteHandle|ccTweaked.fs.ReadHandle|ccTweaked.fs.WriteHandle
     local new_source = parseFile(file)
