@@ -7,7 +7,6 @@ local args = { ... }
 local root_path = args[1]
 ---@cast root_path string
 
-
 ---@param path string
 local function getFileName(path)
     local r = path:match("[%/]([%w_]*)%.lua$")
